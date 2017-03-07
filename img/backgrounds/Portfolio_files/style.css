@@ -1,0 +1,129 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+
+body {
+    background: url('http://s.bootply.com/assets/64531/green_suburb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	/*color:#fff;*/
+  	background-color:#333;
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    padding-top: 100px;
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+#header{
+  background-color: #524949;
+}
+#header-wrapper{
+  background: url('../img/backgrounds/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a:link, a:visited {
+	color:#eee;
+}
+
+html,
+body {
+
+}
+.header-img{
+  height: 150px;
+  width: 200px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.inner-wrap{
+  background-color: #FAF5F5;
+  margin: 10px;
+}
+
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #080808;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.block {
+	background-color:rgba(0,0,0,0.2);
+    height:370px;
+  	padding-left:12px;
+  	padding-right:12px;
+}
+
+.block-sm {
+    height:180px;
+}
+
+.btn-flat {
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	border-radius:0px;
+  	border-width:0;
+  	background-image:none;
+  	padding:16px;
+  	margin:0 auto;
+  	margin-top:15px;
+  	width:70%;
+    font-size:20pt;
+}
+
+/* mini carousel */
+#social{
+    float: right;
+    margin: 15px 35px 0px 0px;
+}
+#social ul li{
+    float: left;
+    list-style: none;
+    padding-right: 7px;
+}
+#social img{
+    height: 45px;
+    width: 45px;
+}
+#social a{
+  border: none;
+}
+#content{
+  border-bottom: 1px;
+  margin: 5px;
+  box-shadow: 2;
+  background-color: #ECEEE8;
+}
+}
+footer {
+    padding: 30px 0;
+}
+footer li{
+  list-style: none;
+}
